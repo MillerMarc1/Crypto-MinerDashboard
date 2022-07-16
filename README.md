@@ -4,7 +4,7 @@ The Crypto-MinerDashboard pulls relevant data from Ethermine.
 
 ## Description
 
-The Crypto-MinerDashbord is a project that uses a Power BI frontend to display miner information from Ethermine. Data is pulled by a PowerShell script via APIs. The PowerShell script connects to a SQL server and pushes data to a table [here](#sql-db-setup)
+The Crypto-MinerDashboard is a project that uses a Power BI frontend to display miner information from Ethermine. Data is pulled by a PowerShell script via APIs. The PowerShell script connects to a SQL server and pushes data to a table [here](#sql-db-setup)
 
 ## Setup
 
@@ -15,7 +15,7 @@ $server = "ENTER SERVER NAME"
 $database = "ENTER DB NAME"
 ````
 
-Add your SQL server name to the $server variable and add the Databse name to the $database variable.
+Add your SQL server name to the $server variable and add the Database name to the $database variable.
 
 ````powershell
 $wallet = "ENTER WALLET ADDRESS"
@@ -23,7 +23,7 @@ $wallet = "ENTER WALLET ADDRESS"
 
 Add your wallet address to the $wallet variable. Make sure to only add the value after 0x.
 
-Finally, in order to schedule the sript to retrieve data, Task Scheduler or SQL jobs can be created. Simply run the script in daily intervals and the data will be updated.
+Finally, in order to schedule the script to retrieve data, Task Scheduler or SQL jobs can be created. Simply run the script in daily intervals and the data will be updated.
 
 ## Power BI Dashboard
 
