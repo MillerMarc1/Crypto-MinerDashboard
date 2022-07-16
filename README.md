@@ -42,7 +42,7 @@ In order to store the data retrieved by the PowerShell script, we need to create
 - DailyChange: change in unpaid balance when compared to the previous day
 - ActiveWorkers: active miner count
 - AvgHash: average hashrate for all miners
-- CoinsPerMin: coins minder per minute
+- CoinsPerMin: coins mined per minute
 - CoinsPerDay: coins mined per day
 - UsdPerMin: $ per minute
 - UsdPerDay: $ per day
