@@ -4,7 +4,7 @@ The Crypto-MinerDashboard pulls relevant data from Ethermine.
 
 ## Description
 
-The Crypto-MinerDashbord is a project that uses a Power BI frontend to display miner information from Ethermine. Data is pulled by a PowerShell script via APIs. The PowerShell script connects to a SQL server and pushes data to a table (INsert link to sql overview).
+The Crypto-MinerDashbord is a project that uses a Power BI frontend to display miner information from Ethermine. Data is pulled by a PowerShell script via APIs. The PowerShell script connects to a SQL server and pushes data to a table [here](#sql-db-setup)
 
 ## Power BI Dashboard
 
