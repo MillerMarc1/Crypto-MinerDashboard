@@ -21,7 +21,7 @@ $response = Invoke-RestMethod $uri -Method "GET"
 $unpaidBalance = $response.data.unpaid
 $workers = $response.data.activeWorkers
 
-if($workers -eq $null){
+if($null -eq $workers){
     $workers = "Worker is Inactive"
 }
 
