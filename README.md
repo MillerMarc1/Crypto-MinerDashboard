@@ -51,4 +51,4 @@ In order to store the data retrieved by the PowerShell script, we need to create
 
 ## License
 
-This project is licensed under the [MIT](LICENSE.md)
+This project is licensed under the [MIT](LICENSE.md) License.
