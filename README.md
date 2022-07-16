@@ -18,14 +18,14 @@ The below image shows a possible dashboard setup:
 
 In order to store the data retrieved by the PowerShell script, we need to create a SQL DB and a SQL table. The SQL table should be named "Ethermine_Dashboard" and include the following columns:
 
-- Date - date when the data was pushed
-- UnpaidBalance - balance stored in the Ethermine wallet
-- DailyChange - change in unpaid balance when compared to the previous day
-- ActiveWorkers - active miner count
-- AvgHash - average hashrate for all miners
-- CoinsPerMin - coins minder per minute
-- CoinsPerDay - coins mined per day
-- UsdPerMin - $ per minute
-- UsdPerDay - $ per day
+- Date: date when the data was pushed
+- UnpaidBalance: balance stored in the Ethermine wallet
+- DailyChange: change in unpaid balance when compared to the previous day
+- ActiveWorkers: active miner count
+- AvgHash: average hashrate for all miners
+- CoinsPerMin: coins minder per minute
+- CoinsPerDay: coins mined per day
+- UsdPerMin: $ per minute
+- UsdPerDay: $ per day
 
 ![alt-text](pictures/SqlTable.png "SQL Table Example")
