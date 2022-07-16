@@ -23,6 +23,8 @@ $wallet = "ENTER WALLET ADDRESS"
 
 Add your wallet address to the $wallet variable. Make sure to only add the value after 0x.
 
+Finally, in order to schedule the sript to retrieve data, Task Scheduler or SQL jobs can be created. Simply run the script in daily intervals and the data will be updated.
+
 ## Power BI Dashboard
 
 The Power BI report directly connects to the SQL Server and pulls data from selected tables. Simply create tiles and point them to the relevant columns.
