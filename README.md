@@ -12,19 +12,20 @@ The Power BI report directly connects to the SQL Server and pulls data from sele
 
 The below image shows a possible dashboard setup:
 
-<img src="/pictures/PowerBI.png" alt="Alt text" title="OptionalTite">
+![alt-text](pictures/PowerBI.png "Power BI Dashboard Example")
 
 ## SQL DB Setup
 
 In order to store the data retrieved by the PowerShell script, we need to create a SQL DB and a SQL table. The SQL table should be named "Ethermine_Dashboard" and include the following columns:
-    - Date - date when the data was pushed
-    - UnpaidBalance - balance stored in the Ethermine wallet
-    - DailyChange - change in unpaid balance when compared to the previous day
-    - ActiveWorkers - active miner count
-    - AvgHash - average hashrate for all miners
-    - CoinsPerMin - coins minder per minute
-    - CoinsPerDay - coins mined per day
-    - UsdPerMin - $ per minute
-    - UsdPerDay - $ per day
 
-<img src="/pictures/SqlTable.png" alt="Alt text" title="OptionalTite">
+- Date - date when the data was pushed
+- UnpaidBalance - balance stored in the Ethermine wallet
+- DailyChange - change in unpaid balance when compared to the previous day
+- ActiveWorkers - active miner count
+- AvgHash - average hashrate for all miners
+- CoinsPerMin - coins minder per minute
+- CoinsPerDay - coins mined per day
+- UsdPerMin - $ per minute
+- UsdPerDay - $ per day
+
+![alt-text](pictures/SqlTable.png "SQL Table Example")
