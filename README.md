@@ -48,3 +48,7 @@ In order to store the data retrieved by the PowerShell script, we need to create
 - UsdPerDay: $ per day
 
 ![alt-text](pictures/SqlTable.png "SQL Table Example")
+
+## License
+
+This project is licensed under the [MIT](LICENSE.md)
